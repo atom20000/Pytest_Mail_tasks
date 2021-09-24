@@ -24,7 +24,7 @@ class TestTuple:
         tuple_two = (5, 'tuple', [1,2,3,4], True)
         assert tuple_one != tuple_two
 
-class TestDict:
+class TestDictionary:
 
     def test_assigning_dictionary_and_accessing_non_existent_key(self):
         dict_one = {1 : 'Give', 2 : 'me', 3 : 'my', 4 : 'money'}
